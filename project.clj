@@ -2,6 +2,7 @@
   :description "TODO with Clojure"
   :dependencies [[org.clojure/clojure "1.11.3"]
                  [compojure "1.6.2"]
+                 [hiccup "2.0.0-RC3"]
                  [ring/ring-defaults "0.5.0"]
                  [ring/ring-core "1.12.1"]
                  [ring/ring-jetty-adapter "1.12.1"]]
