@@ -1,6 +1,6 @@
 (defproject todo-list "0.1.0-SNAPSHOT"
   :description "TODO with Clojure"
-  :dependencies [[org.clojure/clojure "1.10.1"]
+  :dependencies [[org.clojure/clojure "1.11.3"]
                  [compojure "1.6.2"]
                  [ring/ring-defaults "0.5.0"]
                  [ring/ring-core "1.12.1"]
