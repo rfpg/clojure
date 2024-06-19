@@ -46,7 +46,7 @@
 </head>
 
 <body>
-  <div class="board" hx-get="/state" hx-trigger="load" hx-swap="none">
+  <div class="board" hx-get="/state" hx-trigger="load, every 1s" hx-swap="none">
     <div class="column" id="todo-column">
       <h2>Todo</h2>
       <div id="to-do-tasks" class="task-list" ondrop="drop(event, 'to-do')" ondragover="allowDrop(event)">
